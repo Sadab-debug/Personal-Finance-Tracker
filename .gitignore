@@ -1,0 +1,19 @@
+# === Sensitive Files ===
+.env
+firebase.py
+
+__pycache__/
+*.pyc
+*.pyo
+
+# === Images/Generated Assets ===
+images/
+*.png               # If generated images should not be tracked
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Ignore all __pycache__ directories
+__pycache__/
+**/__pycache__/
